@@ -18,8 +18,7 @@ if (this.readyState == 4 && this.status == 200)
 		var hours = lastUpdated.getUTCHours();
 		var minute = lastUpdated.getUTCMinutes();
 		var second = lastUpdated.getUTCSeconds();
-		var test = lastUpdated.getTimezoneOffset();
-		$(dateTagClass).text(`Last Updated: ${date}.${month}.${year} ${hours}:${minute}:${second} ${test}`);
+		$(dateTagClass).text(`Last Updated: ${date}.${month}.${year} ${hours}:${minute}:${second}`);
 	}
 	});
 }
