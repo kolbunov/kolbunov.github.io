@@ -1,0 +1,91 @@
+:root {
+--backgroundColorLight: #111111;
+--backgroundColorDark: #111111;
+--foregroundColorLight: #ffcc00;
+--foregroundColorDark: #ffcc00;
+--fontFamily: 400 1em/1.4 "P22Underground", Helvetica, Arial, sans-serif;
+}
+
+@keyframes loading {
+	from {opacity: 0;} 80% {opacity: 0;} to {opacity: 1;}
+}
+
+@media (prefers-color-scheme: light) {
+	body { background: var(--backgroundColorLight); color: var(--foregroundColorLight); }
+}
+
+@media (prefers-color-scheme: dark) {
+	body { background: var(--backgroundColorDark); color: var(--foregroundColorDark); }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: var(--fontFamily);
+}
+
+.wrapper {
+	position: relative;
+	width: 90vw;
+	height: 84vh;
+	min-height: 370px;
+	left: 5vw;
+	top: 8vh;
+	text-align: justify;
+}
+
+.dummy {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+a {
+	color: #4A9CFF;
+	text-decoration: none;
+}
+
+header {
+	padding: 60px 0 0;
+	max-width: 460px;
+	margin: 0 auto;
+	animation: loading 0.4s;
+}
+
+main {
+	padding: 20px 0;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+main>h1 {
+	font-weight: 500;
+	animation: loading 0.8s;
+}
+
+main>p {
+	padding: 20px 0 0;
+	animation: loading 1.2s;
+}
+
+footer {
+	padding: 20px 0;
+	max-width: 460px;
+	margin: 0 auto;
+	color: #848484;
+	animation: loading 1.6s;
+}
+
+@media (max-width: 640px) {
+	.wrapper {
+		width: 100%;
+		left: 0px;
+	}
+}

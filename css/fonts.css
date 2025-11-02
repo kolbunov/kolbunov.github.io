@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "P22Underground";
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProThin"), local("P22UndergroundCYProThin"),
+		url("../fonts/P22UndergroundCYProThin.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProThin.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProThin.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProThin.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "P22Underground";
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProLight"), local("P22UndergroundCYProLight"),
+		url("../fonts/P22UndergroundCYProLight.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProLight.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProLight.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProLight.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "P22Underground";
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProBook"), local("P22UndergroundCYProBook"),
+		url("../fonts/P22UndergroundCYProBook.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProBook.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProBook.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProBook.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "P22Underground";
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProMedium"), local("P22UndergroundCYProMedium"),
+		url("../fonts/P22UndergroundCYProMedium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProMedium.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProMedium.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProMedium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "P22Underground";
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProDemi"), local("P22UndergroundCYProDemi"),
+		url("../fonts/P22UndergroundCYProDemi.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProDemi.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProDemi.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProDemi.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "P22Underground";
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+	src: local("P22UndergroundCYProHeavy"), local("P22UndergroundCYProHeavy"),
+		url("../fonts/P22UndergroundCYProHeavy.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/P22UndergroundCYProHeavy.woff2") format("woff2"),
+		url("../fonts/P22UndergroundCYProHeavy.woff") format("woff"),
+		url("../fonts/P22UndergroundCYProHeavy.ttf") format("truetype");
+}
