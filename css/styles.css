@@ -59,6 +59,10 @@ header {
 	animation: loading 0.4s;
 }
 
+header>h1 {
+	text-align: center;
+}
+
 main {
 	padding: 20px 0;
 	max-width: 460px;
@@ -71,6 +75,11 @@ main>h1 {
 }
 
 main>p {
+	padding: 20px 0 0;
+	animation: loading 1.2s;
+}
+
+main>iframe {
 	padding: 20px 0 0;
 	animation: loading 1.2s;
 }
