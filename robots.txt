@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /craft/
+
+Sitemap: https://atrial.org/sitemap.xml
