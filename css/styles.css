@@ -73,3 +73,20 @@ main>p:nth-of-type(1) { animation: loading 0.6s; }
 main>p:nth-of-type(2) { animation: loading 1.0s; }
 main>p:nth-of-type(3) { animation: loading 1.4s; }
 main>p:nth-of-type(4) { animation: loading 1.8s; }
+
+.wave {
+	font-size: 1.15em;
+	display: inline-block;
+	transform-origin: 70% 70%;
+	animation: wave 4s 1.8s infinite;
+}
+
+@keyframes wave {
+	0%   { transform: rotate(0deg); }
+	5%   { transform: rotate(14deg); }
+	10%  { transform: rotate(-8deg); }
+	15%  { transform: rotate(14deg); }
+	20%  { transform: rotate(-4deg); }
+	25%  { transform: rotate(0deg); }
+	100% { transform: rotate(0deg); }
+}
