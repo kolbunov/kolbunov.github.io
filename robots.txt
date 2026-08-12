@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /craft/
+Disallow: /video/
 
 Sitemap: https://atrial.org/sitemap.xml
